@@ -5,8 +5,6 @@ country2_df = pd.read_csv('/content/drive/MyDrive/Git files/Country 2.csv', enco
 country3_df = pd.read_csv('/content/drive/MyDrive/Git files/Country 3.csv', encoding='latin1')
 country4_df = pd.read_csv('/content/drive/MyDrive/Git files/Country 4.csv', encoding='latin1')
 
-
-# Concatenating all country dataframes into a single dataframe
 all_countries_df = pd.concat([country1_df, country2_df, country3_df, country4_df])
 
 
